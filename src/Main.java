@@ -30,10 +30,14 @@ public class Main
         }
 
         int sum = 0;
+        double average = 0;
 
         for(int p : primes)
         {
             sum += p; //sum = sum + p
         }
+        average = (double) sum / primes.length;
+
+        System.out.println("Average is " + average);
     }
 }
